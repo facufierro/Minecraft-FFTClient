@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "pack_format": 48,
-        "description": "Removes the player inventory slots unless there is a backpack equipped in the back slot"
-    }
+  "pack": {
+    "pack_format": 48,
+    "description": "Disables the player inventory slots unless there is a backpack equipped in the back slot"
+  }
 }
