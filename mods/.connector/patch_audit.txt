@@ -1,29 +1,11 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 3
+Successful: 0
 Partial: 1
 Failed: 0
-Success rate: 100.00%        Accuracy: 87.50%
+Success rate: 100.00%        Accuracy: 50.00%
 =============================================
-
-Mixin method net/fabric_extras/ranged_weapon/mixin/client/PlayerEntityRendererMixin armPose_crossbowHold_RWA(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/item/ItemStack;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Ljava/lang/Object;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/item/ItemStack;)Z
-
-Mixin method net/fabric_extras/ranged_weapon/mixin/client/HeldItemRendererMixin renderFirstPersonItem_ItemStack_IsOf_Crossbow(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/item/ItemStack;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Ljava/lang/Object;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/item/ItemStack;)Z
 
 Mixin method dev/emi/trinkets/mixin/ItemStackMixin getTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/TooltipFlag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Ljava/util/List;)V
   >> Using org.sinytra.adapter.patch.transformer.operation.ModifyInjectionPoint
      - Change injection point to Lnet/neoforged/neoforge/common/util/AttributeTooltipContext;of(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/Item$TooltipContext;Lnet/minecraft/world/item/TooltipFlag;)Lnet/neoforged/neoforge/common/util/AttributeTooltipContext;
-
-Mixin method net/spell_engine/mixin/client/render/InGameHudMixin renderMainHud_AFTER_renderMountHealth(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-  >> Using org.sinytra.adapter.patch.transformer.dynfix.DynFixSplitMethod
-     - Adjusting split method target to maybeRenderVehicleHealth(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;)V
-  >> Using org.sinytra.adapter.patch.transformer.operation.ModifyInjectionTarget
-     - Change mixin target to [maybeRenderVehicleHealth(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;)V]
 
