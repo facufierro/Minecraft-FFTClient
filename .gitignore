@@ -1,3 +1,14 @@
 /disabledmods
 /instance.json
 /jarmods
+config/connector.json
+config/fml.toml
+config/neoforge-client.toml
+config/neoforge-common.toml
+config/fabric/indigo-renderer.properties
+options.txt
+data/fabricDefaultResourcePacks.dat
+downloads/log.json
+logs/debug.log
+logs/latest.log
+logs/telemetry/20250629-1.json
