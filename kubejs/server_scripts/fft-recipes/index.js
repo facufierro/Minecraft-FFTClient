@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
-    event.remove({ input: '#c:wood_sticks' })
-    console.info('FFT Recipes: Removed all recipes containing c:wood_sticks')
+    event.replaceInput(
+        { input: '#c:wood_sticks' },
+        '#c:wood_sticks',
+        'minecraft:stick'
+    )
 })
