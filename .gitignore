@@ -6,3 +6,8 @@
 /downloads
 /saves
 /options.txt
+/usercache.json
+/usernamecache.json
+/crash-reports
+/command_history.txt
+/.mixin.out
