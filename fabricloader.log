@@ -1,0 +1,4 @@
+[12:10:25] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[12:10:25] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE day_dream 1.0.11 {depends fabric-language-kotlin @ [>=1.12.0+kotlin.2.0.10]}, ROOT_FORCELOAD_SINGLE day_dream 1.0.11]
+[12:10:25] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP day_dream 1.0.11 {depends fabric-language-kotlin @ [>=1.12.0+kotlin.2.0.10]}]
+[12:10:25] [INFO] [FabricLoader/Resolution]: Fix: add [add:fabric-language-kotlin 1.12.0+kotlin.2.0.10 ([[1.12.0+kotlin.2.0.10,∞)])], remove [], replace []
