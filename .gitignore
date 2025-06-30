@@ -1,15 +1,21 @@
+# Folders
 /data
 /disabledmods
-/instance.json
 /jarmods
 /logs
 /downloads
 /saves
+/crash-reports
+/moddata
+/config
+
+# Files
+/.mixin.out
+/command_history.txt
 /options.txt
 /usercache.json
 /usernamecache.json
-/crash-reports
-/command_history.txt
-/.mixin.out
-/moddata
-/config
+/instance.json
+
+# Exclusions
+!/config/steves_realistic_sleep.json
