@@ -1,11 +1,11 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 0
-Partial: 1
+Successful: 1
+Partial: 0
 Failed: 0
-Success rate: 100.00%        Accuracy: 50.00%
+Success rate: 100.00%        Accuracy: 100.00%
 =============================================
 
-Mixin method dev/emi/trinkets/mixin/ItemStackMixin getTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/TooltipFlag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Ljava/util/List;)V
-  >> Using org.sinytra.adapter.patch.transformer.operation.ModifyInjectionPoint
-     - Change injection point to Lnet/neoforged/neoforge/common/util/AttributeTooltipContext;of(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/Item$TooltipContext;Lnet/minecraft/world/item/TooltipFlag;)Lnet/neoforged/neoforge/common/util/AttributeTooltipContext;
+Mixin method folk/sisby/antique_atlas/mixin/MixinHeldItemRenderer enableFirstPersonAtlasRendering(ZLnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.ModifyMixinType
+     - Modify type to Lorg/sinytra/adapter/runtime/inject/ModifyInstanceofValue;
 
